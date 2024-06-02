@@ -99,8 +99,11 @@ modified      /home/peter/.bashrc
 
 add env path
 
-
-
+```
+export PATH="/work/cyh_anomaly/3/bin:$PATH"
+echo 'export PATH="/work/cyh_anomaly/3/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+```
 
 ```
 conda create -n agpt python==3.10
