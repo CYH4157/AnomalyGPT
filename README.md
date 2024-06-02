@@ -74,6 +74,14 @@ apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxc
 wget https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh
 bash Anaconda3-2024.02-1-Linux-x86_64.sh
 
+
+```
+
+<img width="521" alt="image" src="https://github.com/CYH4157/AnomalyGPT/assets/47914438/e4466f38-b011-4ade-9696-a1a03a3939d8">
+
+add env path
+
+```
 conda create -n agpt python==3.10
 conda activate agpt
 ```
