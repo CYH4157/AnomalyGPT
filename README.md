@@ -79,7 +79,28 @@ bash Anaconda3-2024.02-1-Linux-x86_64.sh
 
 <img width="521" alt="image" src="https://github.com/CYH4157/AnomalyGPT/assets/47914438/e4466f38-b011-4ade-9696-a1a03a3939d8">
 
+```
+You can undo this by running `conda init --reverse $SHELL`? [yes|no]
+[no] >>> yes
+no change     /work/cyh_anomaly/3/condabin/conda
+no change     /work/cyh_anomaly/3/bin/conda
+no change     /work/cyh_anomaly/3/bin/conda-env
+no change     /work/cyh_anomaly/3/bin/activate
+no change     /work/cyh_anomaly/3/bin/deactivate
+no change     /work/cyh_anomaly/3/etc/profile.d/conda.sh
+no change     /work/cyh_anomaly/3/etc/fish/conf.d/conda.fish
+no change     /work/cyh_anomaly/3/shell/condabin/Conda.psm1
+no change     /work/cyh_anomaly/3/shell/condabin/conda-hook.ps1
+no change     /work/cyh_anomaly/3/lib/python3.11/site-packages/xontrib/conda.xsh
+no change     /work/cyh_anomaly/3/etc/profile.d/conda.csh
+modified      /home/peter/.bashrc
+```
+
+
 add env path
+
+
+
 
 ```
 conda create -n agpt python==3.10
