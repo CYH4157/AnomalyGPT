@@ -68,6 +68,16 @@ We leverage a pre-trained image encoder and a Large Language Model (LLM) to alig
 
 #### 2.1 Environment Installation
 
+build anaconda env
+```
+apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6 git-lfs
+wget https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh
+bash Anaconda3-2024.02-1-Linux-x86_64.sh
+
+conda create -n agpt python==3.10
+conda activate agpt
+```
+
 Clone the repository locally:
 
 ```
