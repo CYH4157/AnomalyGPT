@@ -105,6 +105,25 @@ echo 'export PATH="/work/cyh_anomaly/3/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
+若不小心把環境變數弄錯的話,可以這樣清掉 
+```
+source /work/cyh_anomaly/3/envs/agpt/bin/activate
+export PATH=/work/cyh_anomaly/3/envs/agpt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# 查看是否清乾淨
+echo $PATH
+```
+
+永久更新PATH變量
+```
+nano ~/.bashrc
+
+# add this path on bottom of file
+# Set PATH for the agpt virtual environment
+export PATH=/work/cyh_anomaly/3/envs/agpt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+```
+
+
 ```
 conda create -n agpt python==3.10
 conda activate agpt
