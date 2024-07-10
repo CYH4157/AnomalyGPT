@@ -8,6 +8,11 @@ Run the code in a docker environment.
 sudo docker run -idt --ipc=host --gpus all --network=host -v /home/nchc/:/workspace/:rw huggingface/transformers-pytorch-gpu
 ```
 
+go into container
+```
+docker exec -it containername bash
+```
+
 * Installation of the required library
 ```
 apt-get update
