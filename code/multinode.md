@@ -20,7 +20,7 @@ cd anomalygpt
 pip install -r requirements.txt
 ```
 
-## Setp 2: Set up passwordless SSH login on all nodes
+## Step 2: Set up passwordless SSH login on all nodes
 
 Ensure Passwordless SSH Login
 * Installation of the required tools
@@ -100,7 +100,7 @@ Finish and leave.
 exit
 ```
 
-## Setp 3: Create config file with direct ssh name
+## Step 3: Create config file with direct ssh name
 
 ```
 cd .ssh
