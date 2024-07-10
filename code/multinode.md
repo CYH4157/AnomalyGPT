@@ -27,8 +27,11 @@ Ensure Passwordless SSH Login
 ```
 apt-get update
 apt install openssh-server
+```
+```
 apt-get install net-tools
-
+```
+```
 ## setting root passwd
 passwd root
 ```
