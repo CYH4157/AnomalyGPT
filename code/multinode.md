@@ -82,7 +82,7 @@ ssh -p 2222 root@10.250.64.30
 
 
 ```
-cat .ssh/a30ip31.pub >> .ssh/authorized_keys
+cat .ssh/node21.pub >> .ssh/authorized_keys
 ```
 
 Ensure the permissions of the .ssh directory and authorized_keys file are correct:
