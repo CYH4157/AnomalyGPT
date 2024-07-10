@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ## Step 2: Set up passwordless SSH login on all nodes
 
 Ensure Passwordless SSH Login
-* Installation of the required tools
+* Installation of the required tools, make sure for each node(master and worker)
 ```
 apt-get update
 apt install openssh-server
