@@ -1,7 +1,7 @@
 # Use multi-node
 We use two A30s to complete the multi-node model training.
 
-## Setp 1: Docker environment
+## Step 1: Docker environment
 Run the code in a docker environment.
 
 ```
