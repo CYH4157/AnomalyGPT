@@ -108,7 +108,8 @@ exit
 
 ```
 cd .ssh
-vim config
+apt install nano
+nano config
 ```
 
 config file:
