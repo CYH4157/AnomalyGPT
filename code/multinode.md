@@ -143,9 +143,38 @@ The hostfile can be placed in any directory.
 hostfile:
 ```
 localhost slots=2
-worker slots=2
+my-30 slots=2
 ```
 
+## Setp 6: Confirm Environment Variables are Loaded
+This step can be skipped if there is no problem.
+
+* Set the correct environment variables in your `.bashrc` or `.bash_profile` file:
+    
+```bash
+nano ~/.bashrc
+```
+Add the required environment variables, for example:
+    
+```plaintext
+export PATH=/path/to/your/python/bin:$PATH
+export PYTHONPATH=/path/to/your/python/lib/python3.x/site-packages:$PYTHONPATH
+```
+
+* Manually load the environment variables:
+    
+```bash
+source ~/.bashrc
+```
+
+* Check Firewall Settings
+
+Ensure that the firewall on all nodes does not block the ports used by DeepSpeed. You can temporarily disable the firewall to rule out this issue:
+    
+```bash
+sudo service ufw status
+sudo ufw disable
+```
 
 
 ## Setp 7: Start DeepSpeed Multi-Node Training
