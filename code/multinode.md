@@ -71,11 +71,15 @@ Put the public key to the host you want to log in.
 
 ```
 cd .ssh
-scp -P 2222 a30ip31.pub root@10.250.64.21:.ssh
+scp -P 2222 node21.pub root@10.250.64.30:.ssh
 ```
 
 The default file for handling public keys is
 authorized_keys, so the public keys just sent must be accumulated into this file:
+```
+ssh -p 2222 root@10.250.64.30
+```
+
 
 ```
 cat .ssh/a30ip31.pub >> .ssh/authorized_keys
