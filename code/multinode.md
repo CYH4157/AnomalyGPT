@@ -137,7 +137,7 @@ Host localhost
 * Restart the SSH service:
 
 ```
-sudo systemctl restart ssh
+service restart ssh
 ```
 
 * Verify passwordless SSH login:
